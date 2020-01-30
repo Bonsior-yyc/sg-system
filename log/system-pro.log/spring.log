@@ -1,0 +1,5 @@
+2020-01-28 22:22:28.273  INFO 1595 --- [restartedMain] com.bnu.sg.system.SystemApplication      : Starting SystemApplication on bogon with PID 1595 (/Users/yanyuchen/IdeaProjects/system/target/classes started by yanyuchen in /Users/yanyuchen/IdeaProjects/system)
+2020-01-28 22:22:28.275  INFO 1595 --- [restartedMain] com.bnu.sg.system.SystemApplication      : The following profiles are active: pro
+2020-01-28 22:22:30.098  WARN 1595 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-28 22:22:30.283  WARN 1595 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-28 22:22:30.407  INFO 1595 --- [restartedMain] com.bnu.sg.system.SystemApplication      : Started SystemApplication in 2.397 seconds (JVM running for 2.929)

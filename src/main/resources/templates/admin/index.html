@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员首页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<h1>首页</h1>
+<div class="container">
+
+    <form class="form-signin" th:action="@{/admin/index/addUser}">
+        <h2 class="form-signin-heading">请添加</h2>
+        <label for="inputNumber" class="sr-only">学号</label>
+        <input type="number" id="inputNumber" name="studentId" class="form-control" placeholder="请输入学号/账号" required autofocus>
+        <label  class="sr-only">姓名</label>
+        <input type="text" id="inputText" name="name" class="form-control" placeholder="请输入姓名" required>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">添加</button>
+    </form>
+
+</div> <!-- /container -->
+</body>
+</html>
