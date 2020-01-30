@@ -11,7 +11,9 @@ windows：
 macos 或linux: 
 
     在终端cd命令切换到目标文件夹 git clone https://github.com/Bonsior-yyc/StudentScoreSystem.git
-    代码上传方法  我也不清楚  之后再研究
+代码上传方法  
+
+    我也不清楚  之后再研究
    
 一、搭建流程（初步）
 
