@@ -2,10 +2,17 @@
 
 ****https://github.com/Bonsior-yyc/sg-system****
 ### 
-代码下载方法：
-#######windows： 下载git：https://git-scm.com在cmd中切换到目标文件夹后git clone https://github.com/Bonsior-yyc/StudentScoreSystem.git
-#######macos 或linux  在终端cd命令切换到目标文件夹 git clone https://github.com/Bonsior-yyc/StudentScoreSystem.git
-#####代码上传方法  我也不清楚  之后再研究
+****代码下载方法:****
+
+windows：
+
+    下载git：https://git-scm.com在cmd中切换到目标文件夹后git clone https://github.com/Bonsior-yyc/StudentScoreSystem.git
+
+macos 或linux: 
+
+    在终端cd命令切换到目标文件夹 git clone https://github.com/Bonsior-yyc/StudentScoreSystem.git
+    代码上传方法  我也不清楚  之后再研究
+   
 一、搭建流程（初步）
 
     spring boot
